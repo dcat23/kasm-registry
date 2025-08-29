@@ -1,6 +1,6 @@
 {
   "friendly_name": "Java Development",
-  "image_src": "blob:https://dcat23.github.io/cc5d8e96-2143-4f17-b895-f603c612440b",
+  "image_src": "java-development.png",
   "description": "Tools and editors for java based development environment. ",
   "cores": 2,
   "memory": 2768,
@@ -18,5 +18,27 @@
   "architecture": [
     "amd64",
     "arm64"
+  ],
+  "compatibility":[ 
+    {
+      "version": "1.17.x",
+      "image": "macchiato23/kasm-development:0.0.1-beta",
+      "uncompressed_size_mb": 5160,
+      "available_tags": [
+        "0.0.1",
+        "0.0.1-beta",
+        "0.0.1-rolling-daily"
+      ]
+    },
+    {
+      "version": "1.16.x",
+      "image": "macchiato23/kasm-development:0.0.1-beta",
+      "uncompressed_size_mb": 5160,
+      "available_tags": [
+        "0.0.1",
+        "0.0.1-beta",
+        "0.0.1-rolling-daily"
+      ]
+    }
   ]
 }
