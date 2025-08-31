@@ -14,7 +14,7 @@
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
-  "name": "macchiato23/kasm-development:0.0.1-beta",
+  "name": "macchiato23/kasm-development:develop",
   "architecture": [
     "amd64",
     "arm64"
@@ -22,7 +22,7 @@
   "compatibility":[ 
     {
       "version": "1.17.x",
-      "image": "macchiato23/kasm-development:0.0.1-beta",
+      "image": "macchiato23/kasm-development:develop",
       "uncompressed_size_mb": 5040,
       "available_tags": [
         "develop"
@@ -30,7 +30,7 @@
     },
     {
       "version": "1.16.x",
-      "image": "macchiato23/kasm-development:0.0.1-beta",
+      "image": "macchiato23/kasm-development:develop",
       "uncompressed_size_mb": 5040,
       "available_tags": [
         "develop"
