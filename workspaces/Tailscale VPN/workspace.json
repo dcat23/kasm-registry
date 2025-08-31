@@ -1,20 +1,19 @@
 {
-  "friendly_name": "Java Development",
-  "image_src": "java-development.png",
-  "description": "Tools and editors for java based development environment. ",
+  "friendly_name": "Tailscale VPN",
+  "image_src": "tailscale-vpn.png",
+  "description": "Best VPN Service for secure networks",
   "cores": 2,
   "memory": 2768,
   "gpu_count": 0,
   "cpu_allocation_method": "Inherit",
   "docker_registry": "https://index.docker.io/v1/",
   "categories": [
-    "Development",
-    "Desktop"
+    "Privacy"
   ],
   "require_gpu": false,
   "enabled": true,
   "image_type": "Container",
-  "name": "macchiato23/kasm-development:0.0.1-beta",
+  "name": "macchiato23/kasm-tailscalevpn:develop",
   "architecture": [
     "amd64",
     "arm64"
@@ -22,16 +21,16 @@
   "compatibility":[ 
     {
       "version": "1.17.x",
-      "image": "macchiato23/kasm-development:0.0.1-beta",
-      "uncompressed_size_mb": 5040,
+      "image": "macchiato23/kasm-tailscalevpn:develop",
+      "uncompressed_size_mb": 3350,
       "available_tags": [
         "develop"
       ]
     },
     {
       "version": "1.16.x",
-      "image": "macchiato23/kasm-development:0.0.1-beta",
-      "uncompressed_size_mb": 5040,
+      "image": "macchiato23/kasm-tailscalevpn:develop",
+      "uncompressed_size_mb": 3350,
       "available_tags": [
         "develop"
       ]
