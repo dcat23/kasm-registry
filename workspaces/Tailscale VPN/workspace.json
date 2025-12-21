@@ -20,6 +20,14 @@
   ],
   "compatibility":[ 
     {
+      "version": "1.18.x",
+      "image": "macchiato23/kasm-tailscalevpn:develop",
+      "uncompressed_size_mb": 3350,
+      "available_tags": [
+        "develop"
+      ]
+    },
+    {
       "version": "1.17.x",
       "image": "macchiato23/kasm-tailscalevpn:develop",
       "uncompressed_size_mb": 3350,

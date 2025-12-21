@@ -21,6 +21,14 @@
   ],
   "compatibility":[ 
     {
+      "version": "1.18.x",
+      "image": "macchiato23/kasm-development:develop",
+      "uncompressed_size_mb": 5040,
+      "available_tags": [
+        "develop"
+      ]
+    },
+    {
       "version": "1.17.x",
       "image": "macchiato23/kasm-development:develop",
       "uncompressed_size_mb": 5040,
