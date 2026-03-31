@@ -25,7 +25,8 @@
       "image": "macchiato23/kasm-development:develop",
       "uncompressed_size_mb": 5040,
       "available_tags": [
-        "develop"
+        "develop",
+        "0.1.0"
       ]
     },
     {
@@ -33,7 +34,8 @@
       "image": "macchiato23/kasm-development:develop",
       "uncompressed_size_mb": 5040,
       "available_tags": [
-        "develop"
+        "develop",
+        "0.1.0"
       ]
     },
     {
