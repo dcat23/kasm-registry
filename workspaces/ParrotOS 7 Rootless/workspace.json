@@ -1,0 +1,51 @@
+{
+  "friendly_name": "Parrot OS 7 (rootless)",
+  "image_src": "parrot-os.png",
+  "description": "Parrot OS 7 rootless desktop for Kasm Workspaces",
+  "cores": 2,
+  "memory": 5200,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Development",
+    "Desktop"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "name": "macchiato23/kasm-parrotos-7-rootless:latest",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility":[ 
+    {
+      "version": "1.18.x",
+      "image": "macchiato23/kasm-parrotos-7-rootless:latest",
+      "uncompressed_size_mb": 16000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.17.x",
+      "image": "macchiato23/kasm-parrotos-7-rootless:latest",
+      "uncompressed_size_mb": 16000,
+      "available_tags": [
+        "latest"
+      ]
+    },
+    {
+      "version": "1.16.x",
+      "image": "macchiato23/kasm-development:develop",
+      "uncompressed_size_mb": 5040,
+      "available_tags": [
+        "develop"
+      ]
+    }
+  ],
+  "run_config": {
+    "privileged": true
+  }
+}
