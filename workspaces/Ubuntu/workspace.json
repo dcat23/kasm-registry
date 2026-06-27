@@ -1,6 +1,6 @@
 {
   "friendly_name": "Ubuntu - Big Sur",
-  "image_src": "macchiato.jpg",
+  "image_src": "macchiato.png",
   "description": "Big Sur inspired Ubuntu",
   "cores": 2,
   "memory": 4800,
