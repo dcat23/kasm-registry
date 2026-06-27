@@ -1,0 +1,41 @@
+{
+  "friendly_name": "Ubuntu - Big Sur",
+  "image_src": "macchiato.jpg",
+  "description": "Big Sur inspired Ubuntu",
+  "cores": 2,
+  "memory": 4800,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+  "docker_registry": "https://index.docker.io/v1/",
+  "categories": [
+    "Desktop"
+  ],
+  "require_gpu": false,
+  "enabled": true,
+  "image_type": "Container",
+  "name": "macchiato23/kasm-big-sur:latest",
+  "architecture": [
+    "amd64",
+    "arm64"
+  ],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "macchiato23/kasm-big-sur:latest",
+      "uncompressed_size_mb": 1900,
+      "available_tags": [
+        "develop",
+        "latest"
+      ]
+    },
+    {
+      "version": "1.17.x",
+      "image": "macchiato23/kasm-big-sur:latest",
+      "uncompressed_size_mb": 1900,
+      "available_tags": [
+        "develop",
+        "latest"
+      ]
+    }
+  ]
+}
